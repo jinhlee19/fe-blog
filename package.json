@@ -1,5 +1,5 @@
 {
-  "name": "vlog",
+  "name": "dslog",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.1.1",
+    "next": "12.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "formik": "^2.2.9",
+    "next-pwa": "^5.5.4",
+    "nextjs-progressbar": "^0.0.14",
+    "node-sass": "^7.0.1",
+    "prop-types": "^15.8.1",
+    "qs": "^6.11.0",
+    "react-icons": "^4.4.0",
+    "react-toastify": "^9.0.7",
+    "swiper": "^8.3.1",
+    "zustand": "^4.0.0-rc.4"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.13",
     "eslint": "8.31.0",
-    "eslint-config-next": "13.1.1"
+    "eslint-config-next": "13.1.1",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4",
+    "cross-env": "^7.0.3"
   }
 }
