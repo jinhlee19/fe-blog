@@ -16,6 +16,14 @@
     url("/fonts/Raleway-VariableFont_wght.ttf") format("woff2-variations");
 }
 
+@font-face {
+  font-family: "KBIZHanmaumGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumGothic.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -28,15 +36,16 @@
     @apply text-2xl;
   }
   h2 {
-    @apply text-lg;
+    @apply text-lg leading-6;
   }
   h3 {
-    @apply text-xs;
+    @apply text-xs uppercase;
   }
   h4 {
+    @apply font-sub text-xs uppercase font-light text-primary-light;
   }
   time {
-    @apply text-xs;
+    @apply font-sub text-xs uppercase text-text-light;
   }
 }
 @layer components {

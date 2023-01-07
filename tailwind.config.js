@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        eng: ["Raleway"],
+        sub: ["KBIZHanmaumGothic"],
         sans: ["Raleway", "Pretendard", "system-ui"],
         serif: ["ui-serif", "Georgia"],
         mono: ["ui-monospace", "SFMono-Regular"],

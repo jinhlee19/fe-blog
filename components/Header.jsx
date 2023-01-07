@@ -2,19 +2,17 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <Header>
+    <header>
       <div className="logo">
         <Link href="/">
-          <a>DSlog</a>
+          <a>Blog</a>
         </Link>
       </div>
       <nav>
         <ul>
-          <li>
-            <Link href="/"></Link>
-          </li>
+          <li></li>
         </ul>
       </nav>
-    </Header>
+    </header>
   );
 }
