@@ -1,16 +1,11 @@
-import Head from "next/head";
-
-export default function Home() {
+export default function LandingPage() {
   return (
     <div>
-      <Head></Head>
-      <div>
-        <h1>Hello World</h1>
-        <p className="">text</p>
-        <h2>This is Heading 2</h2>
-        <h2 className="uppercase">한글은 프리텐다드 폰트를 사용합니다.</h2>
-        <h2 className="text-sm">We use Montserrats for the English text.</h2>
-      </div>
+      <h1>Hello World</h1>
+      <p className="">text</p>
+      <h2>This is Heading 2</h2>
+      <h2 className="uppercase">한글은 프리텐다드 폰트를 사용합니다.</h2>
+      <h2 className="text-sm">We use Montserrats for the English text.</h2>
     </div>
 
     // <div className={styles.container}>

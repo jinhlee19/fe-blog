@@ -5,7 +5,7 @@ export default function Header() {
     <Header>
       <div className="logo">
         <Link href="/">
-          <a>DShine Blog</a>
+          <a>DSlog</a>
         </Link>
       </div>
       <nav>

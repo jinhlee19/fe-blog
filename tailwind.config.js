@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Montserrat", "Pretendard", "system-ui"],
+        eng: ["Raleway"],
+        sans: ["Raleway", "Pretendard", "system-ui"],
         serif: ["ui-serif", "Georgia"],
         mono: ["ui-monospace", "SFMono-Regular"],
         display: ["Pretendard", "Roboto"],
