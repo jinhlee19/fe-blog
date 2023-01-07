@@ -18,9 +18,7 @@
 
 @font-face {
   font-family: "KBIZHanmaumGothic";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumGothic.woff")
-    format("woff");
-  font-weight: normal;
+  src: url("/font/KBIZHanmaumGothic-medium.ttf");
   font-style: normal;
 }
 
@@ -45,7 +43,7 @@
     @apply font-sub text-xs uppercase font-light text-primary-light;
   }
   time {
-    @apply font-sub text-xs uppercase text-text-light;
+    @apply font-sub text-[11px] uppercase text-text-light font-light;
   }
 }
 @layer components {
