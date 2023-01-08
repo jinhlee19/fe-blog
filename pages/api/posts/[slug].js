@@ -4,7 +4,6 @@ const { posts } = require("../data.json");
 export default (req, res) => {
   const post = posts.filter((content) => content.slug === req.query.slug);
   if (req.method === "GET") {
-    console.log(post);
     res.status(200).json(post);
   } else {
     res.setHeader("Allow", ["GET"]);

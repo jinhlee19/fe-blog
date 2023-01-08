@@ -7,7 +7,12 @@ export default function postPage({ post }) {
     <Layout>
       <section className="flex flex-col justify-center items-center space-y-12 px-16">
         <Image src={post.imageUrl} alt="" width={960} height={600} />
+        <h4 className="card__subtitle text-sky-500 text-sm">{post.category}</h4>
         <h1>{post.title}</h1>
+        <div className="flex justify-center pb-4">
+          <hr className="divider--sm w-8" />
+        </div>
+        <time>{post.time}</time>
         <p>{post.content}</p>
       </section>
     </Layout>
