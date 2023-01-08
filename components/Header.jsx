@@ -1,11 +1,11 @@
 import Link from "next/link";
-
+import ThemeToggler from "./ThemeToggler";
 export default function Header() {
   return (
-    <header>
+    <header className="hearder flex justify-between items-center">
       <div className="logo">
         <Link href="/">
-          <a>Blog</a>
+          <a>post</a>
         </Link>
       </div>
       <nav>
@@ -13,6 +13,7 @@ export default function Header() {
           <li></li>
         </ul>
       </nav>
+      <ThemeToggler />
     </header>
   );
 }

@@ -1,3 +1,3 @@
-export default function BlogPage() {
+export default function postPage() {
   return <div>Enter slug</div>;
 }

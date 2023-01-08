@@ -4,7 +4,7 @@ import Header from "./Header";
 
 export default function Layout({ title, keyword, description, children }) {
   return (
-    <div className="bg-black">
+    <div className="dark:bg-black">
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />

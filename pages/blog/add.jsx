@@ -1,5 +1,5 @@
 import Layout from "@/components/Layout";
 
-export default function AddBlogPage() {
-  return <Layout title="Add New Blog">Add Blog</Layout>;
+export default function AddPostPage() {
+  return <Layout title="Add New post">Add post</Layout>;
 }
