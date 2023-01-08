@@ -2,7 +2,7 @@ const { posts } = require("../data.json");
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (req, res) => {
-  const post = posts.filter((log) => log.slug === req.query.slug);
+  const post = posts.filter((content) => content.slug === req.query.slug);
   if (req.method === "GET") {
     console.log(post);
     res.status(200).json(post);

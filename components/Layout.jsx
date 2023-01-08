@@ -18,7 +18,7 @@ export default function Layout({ title, keyword, description, children }) {
 }
 
 Layout.defaultProps = {
-  title: "Dslog | Agency Blog for Design and Development",
-  description: "Sharing valuable memories of DShine",
-  keyword: "Design, Development, Blog",
+  title: "Blog | Agency Blog for Design and Development",
+  description: "Sharing valuable memories",
+  keyword: "IT, Design, Development, PM, Blog",
 };
