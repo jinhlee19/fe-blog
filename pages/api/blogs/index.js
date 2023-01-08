@@ -1,5 +1,5 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-const { blogs } = require("./data.json");
+const { blogs } = require("../data.json");
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (req, res) => {
@@ -10,3 +10,7 @@ export default (req, res) => {
     res.status(405).json({ message: `Method ${req.method} is not allowed` });
   }
 };
+
+// export default (req, res) => {
+//   res.status(200).json({ name: "hello" });
+// };

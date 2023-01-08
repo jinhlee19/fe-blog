@@ -78,19 +78,21 @@ export default function LandingPage() {
   ];
   return (
     <Layout>
-      <section className=""></section>
-      <section className="max-w-screen-2xl mx-auto">
+      <section className="mx-auto max-w-screen-xs md:max-w-screen-sm lg:max-w-screen-xl xl:max-w-screen-2xl grid">
         {/* <div className="card-container grid lg:grid-cols-4"> */}
-        <div className="columns-2 md:columns-3 lg:columns-4">
+        <div className="columns-1 md:columns-2 lg:columns-4 space-x-6">
           {blogs.map((blog) => (
-            <div className="card mb-8 w-72 text-center" key={blog.id}>
-              <figure className="w-72 h-full relative">
+            <div
+              className="card mb-8 w-72 text-center space-y-4 py-8"
+              key={blog.id}
+            >
+              <figure className="w-72 h-full relative mb-4 ">
                 <Image
                   src={blog.imageUrl}
                   width={300}
                   height={400}
                   // layout="fill"
-                  // className=" object-contain"
+                  className=" object-contain"
                   alt="."
                 ></Image>
               </figure>
