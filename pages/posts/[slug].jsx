@@ -1,11 +1,14 @@
 import Layout from "@/components/Layout";
 import { API_URL } from "@/config/index";
+import Image from "next/image";
 
 export default function postPage({ post }) {
   return (
     <Layout>
-      <section className="card-container px-16 flex justify-between items-center w-full ">
+      <section className="flex flex-col justify-center items-center space-y-12 px-16">
+        <Image src={post.imageUrl} alt="" width={960} height={600} />
         <h1>{post.title}</h1>
+        <p>{post.content}</p>
       </section>
     </Layout>
   );
