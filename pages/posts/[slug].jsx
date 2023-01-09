@@ -15,6 +15,9 @@ export default function postPage({ post }) {
         <time>{post.time}</time>
         <p>{post.content}</p>
       </section>
+      <div className="text-center my-12">
+        <button className="btn btn--red">Go Back</button>
+      </div>
     </Layout>
   );
 }
